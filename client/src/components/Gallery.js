@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
-import { useNavigate, useLocation } from 'react-router-dom'; // Import useLocation
+import { useNavigate } from 'react-router-dom';
 import ArtworkModal from './ArtworkModal';
 
 
@@ -15,7 +15,7 @@ const Gallery = () => {
   const [selectedArtwork, setSelectedArtwork] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const navigate = useNavigate();
-  const location = useLocation(); // Initialize useLocation
+  
 
   const categories = ['All', 'Digital Art', 'Traditional Art', 'Photography', 'Sculpture', 'Mixed Media', 'Other'];
 

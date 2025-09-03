@@ -169,11 +169,11 @@ const ChallengeSubmissions = () => {
   };
 
   if (loading) {
-    return <div className="loading">Loading submissions...</div>; {/* Changed class */}
+    return <div className="loading">Loading submissions...</div>;
   }
 
   if (error) {
-    return <div className="alert alert-error">Error: {error}</div>; {/* Changed class */} 
+    return <div className="alert alert-error">Error: {error}</div>;
   }
 
   const isSubmissionsOpen = (challengeDetails?.isSubmissionsOpen ?? false) && new Date(challengeDetails?.submissionEndDate ?? 0) > new Date();
