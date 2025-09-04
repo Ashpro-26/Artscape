@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Artscape/static/css/main.ea73883c.css",
+    "main.js": "/Artscape/static/js/main.fa3c2db3.js",
+    "static/js/453.a3c1d153.chunk.js": "/Artscape/static/js/453.a3c1d153.chunk.js",
+    "index.html": "/Artscape/index.html",
+    "main.ea73883c.css.map": "/Artscape/static/css/main.ea73883c.css.map",
+    "main.fa3c2db3.js.map": "/Artscape/static/js/main.fa3c2db3.js.map",
+    "453.a3c1d153.chunk.js.map": "/Artscape/static/js/453.a3c1d153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea73883c.css",
+    "static/js/main.fa3c2db3.js"
+  ]
+}
